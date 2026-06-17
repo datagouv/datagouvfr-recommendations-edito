@@ -99,7 +99,7 @@
           button: "Consulter l'Annuaire des Entreprises"
 # TVA -> reuse annuaire des entreprises
 -
-  source: https://www.data.gouv.fr/datasets/numeros-de-tva-intracommunautaire-francais?new_explorer=1&resource_id=5199cd40-0e9c-4a24-8ba3-c2365999b2aa
+  source: https://www.data.gouv.fr/datasets/numeros-de-tva-intracommunautaire-francais
   recommendations:
     -
       id: https://annuaire-entreprises.data.gouv.fr/
