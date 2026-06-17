@@ -97,6 +97,23 @@
           title: "Vous cherchez votre numéro SIRET ?"
           message: "L'Annuaire des Entreprises vous permet de facilement retrouver des numéros de SIRET depuis la base de l'INSEE."
           button: "Consulter l'Annuaire des Entreprises"
+# TVA -> reuse annuaire des entreprises
+-
+  source: https://www.data.gouv.fr/datasets/numeros-de-tva-intracommunautaire-francais
+  recommendations:
+    -
+      id: https://annuaire-entreprises.data.gouv.fr/
+      score: 50
+      type: external
+      messages:
+        en:
+          title: "Are you looking for your TVA number?"
+          message: "L'Annuaire des Entreprises allows you to easily find TVA numbers"
+          button: "Visit l'Annuaire des Entreprises"
+        fr:
+          title: "Vous cherchez votre numéro de TVA ?"
+          message: "L'Annuaire des Entreprises vous permet de facilement retrouver des numéros de TVA."
+          button: "Consulter l'Annuaire des Entreprises"
 
 # Liste des entreprises de l'ESS -> reuse annuaire des entreprises
 -
